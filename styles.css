@@ -1,0 +1,81 @@
+
+.author {
+  color:indigo;
+  font-family: 'WindSong', 'cursive';
+}
+.homeBtn {
+  background-color: violet;
+  border: none;
+  text-align: center;
+  font-family: 'Amaranth', 'sans-serif';
+  color: purple;
+  cursor: pointer;
+}
+.homeBtn:hover {
+  color:white;
+}
+.clickable:hover {
+  cursor:pointer;
+}
+
+.topSec {
+  height:auto;
+  width: 100%;
+  background-color: violet; /*dark color */
+}
+
+.midSec {
+  background-color:plum;  /*light color */
+  height:595px;
+  width:100%;
+  margin-top:0;
+}
+
+.toc {
+  background-color:plum;
+  height:595px;
+  width:300px;
+  float:left;
+  overflow-y:auto;
+}
+.btn {
+  background-color: plum;
+  width:300px;
+  height:85px;
+}
+.aSection {
+  display:none;
+}
+
+/*  background-color: violet;dark*/
+.displayArea{
+  padding-top:20px;
+  background-color:plum;
+  height:595px;
+  width:calc(100% - 300px);
+  float:right;
+  overflow-y:auto;
+}
+.clearFl {
+  clear:both;
+}
+
+.bottomSec {
+  text-align:center;
+  width:100%;
+  height:100px;
+
+}
+.buyBtn {
+  background-color:magenta;
+}
+
+.bookpage {
+  width:700px;
+  height:420px;
+  padding-bottom:20px;
+}
+footer {
+  padding: 20px;
+  background-color: plum;
+}
